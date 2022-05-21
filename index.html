@@ -7,24 +7,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body">
+<body>
     <main class="main">
        <div class="topdiv">
          <h1>Name Plague Application</h1>
          <p>Add any name of your choice and we will show you how much it will cost. (Each letter is $5)</p>
-         <form action="">
-            <label for="Name"></label>
-            <input type="text" id="Name" name="Name" value="Enter a guess:">
-         </form>
+            <input type="text" id="Name" class="text-input" placeholder="Enter a guess:" required>    
        </div>
 
        <div class="style">
-           <div class="name">
-             <h2>OLAYINKA OMOTEHINSE</h2>
+         <div class="firststyle">
+          <div class="innerstyle">
+            <div class="button">
+              <input type="button">
+              <input type="button">
+                   <h2>OLAYINKA OMOTEHINSE</h2>
            </div>
-           <div class="total">
-             <p>Total: <Span>$50</Span></p>
-             <button>Buy Now</button>
+          </div>
+        </div>
+           <div class="secondstyle">
+             <p class="total">Total: <Span class="amount">$50</Span></p>
+             <button class="btn" type="submit">Buy Now</button>
            </div>
        </div>
 
